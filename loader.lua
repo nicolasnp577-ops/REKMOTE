@@ -1011,7 +1011,7 @@ end)
 Tools:CreateButton("UltraSpy (REKMOTE)", function()
     if type(CachedData.UltraSpy) ~= "function" then
         local ok, src = pcall(function()
-            return HttpGet(game, "https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/ULTRASPY.LUAU")
+            return HttpGet(game, "https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/ULTRASPY.LUA")
         end)
         if not ok or type(src) ~= "string" or src == "" then
             warn("[Developer Toolbox] UltraSpy download failed:", src)
