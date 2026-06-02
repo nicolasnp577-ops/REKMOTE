@@ -2,19 +2,21 @@
 
 Remote spy / UltraSpy para Roblox (client).
 
-## Carregar com loadstring
+## 🚀 Carregar com loadstring
 
-**Uma linha (recomendado):**
-
-```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/ULTRASPY.LUAU"))()
-```
-
-**Ou use o loader:**
+**⚡ LOADSTRING PRINCIPAL (menu + UltraSpy + tudo embutido):**
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/loader.lua"))({["Owner"] = "PetewareServices"})
 ```
+
+**Ou só o UltraSpy:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasnp577-ops/REKMOTE/main/ULTRASPY.LUA"))()
+```
+
+> 📋 Mais opções em **[LOADSTRING.md](LOADSTRING.md)**
 
 Execute o mais cedo possível na sessão (antes de módulos cachearem `FireServer`).
 
