@@ -18,11 +18,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasnp577-ops/REKM
 
 Execute o mais cedo possível na sessão (antes de módulos cachearem `FireServer`).
 
+## Developer Toolbox (LOADER.LUAU)
+
+No menu **Tools**, use o botão **UltraSpy (REKMOTE)** — baixa e executa o script do GitHub (com cache na sessão).
+
 ## Arquivos
 
 | Arquivo | Descrição |
 |---------|-----------|
 | `ULTRASPY.LUAU` | Script principal |
+| `LOADER.LUAU` | Developer Toolbox com opção UltraSpy em Tools |
 | `loader.lua` | Baixa e executa o principal via GitHub raw |
 
 ## Config (opcional, antes do load)
